@@ -39,4 +39,6 @@ int main()
 	std::cout << "¬аш счЄт: " << newAccount->holderName << ", "
 		<< newAccount->accountNum << ", "
 		<< newAccount->accountBalance;
+
+	delete newAccount;
 }
